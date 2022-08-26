@@ -1,19 +1,17 @@
-import { Outlet, Link } from "react-router-dom";
+import * as React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import "./App.css";
+import Login from "./routes/Login";
+import Add from "./routes/Add";
 
 export default function App() {
   return (
-    <div>
-      <h1>Bookkeeper</h1>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem",
-        }}
-      >
-        <Link to="/invoices">Invoices</Link> |{" "}
-        <Link to="/expenses">Expenses</Link>
-      </nav>
-      <Outlet />
+    <div className="App">
+      <h1>Welcome to Payroll Portal</h1>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="Add" element={<Add />} />
+      </Routes>
     </div>
   );
 }
