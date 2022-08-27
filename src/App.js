@@ -6,7 +6,6 @@ import Add from "./routes/Add";
 import Homepage from "./routes/Homepage";
 import CreatePayroll from "./routes/CreatePayroll";
 import ViewPayroll from "./routes/ViewPayroll";
-import Viewemp from "./routes/Viewemployee";
 import Viewemployee from "./routes/Viewemployee";
 
 export default function App() {

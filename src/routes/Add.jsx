@@ -26,7 +26,7 @@ export default function Add() {
   </form>
   <footer>
           <p><Link to="/">Back</Link></p>
-      </footer>
+  </footer>
  </div>
     )
   }

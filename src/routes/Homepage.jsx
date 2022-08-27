@@ -14,7 +14,9 @@ export default function Homepage() {
   <form2>
   <p><Link to="/ViewPayroll">View Payroll</Link></p>
   </form2>
-  
+  <footer>
+          <p><Link to="/">LogOut</Link></p>
+  </footer>
  
  </div>
     )

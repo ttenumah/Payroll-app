@@ -35,6 +35,9 @@ export default function Viewemployee() {
        </tr>
       </tbody>
     </table>
+    <footer>
+          <p><Link to="/Homepage">HomePage</Link></p>
+  </footer>
  </div>
     )
   }
