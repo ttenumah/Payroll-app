@@ -72,7 +72,7 @@ export default function CreatePayroll() {
   <div class="form-row">
   <div class="form-group col-md-6">
       <label for="netincome">Net Income</label>
-      <input type="id" class="form-control" id="netincome" placeholder="0"/>
+      <input type="text" class="form-control" id="netincome" placeholder="0"/>
     </div>
   </div>
   <button type="submit" class="btn btn-primary">Save</button>
