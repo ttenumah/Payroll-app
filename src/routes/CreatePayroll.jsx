@@ -1,9 +1,24 @@
 import { Routes, Route, Link } from "react-router-dom";
 export default function CreatePayroll() {
     return (
-      <div className="text-center m-5-auto">
-      <h2>Sign in</h2>
-<form>
+      <div >
+        <header>
+<div class="header">
+<a href="#default" class="logo">Create Payroll</a>
+<div class="header-right">
+<a class="active"><Link to="/">Home</Link></a>
+<a><Link to="/">Contact</Link></a>
+<a><Link to="/">LogOut</Link></a>
+</div>
+</div>
+</header>
+<div class="sidenav">
+<a><Link to="/Viewemployee">View Employees</Link></a>
+<a><Link to="/CreatePayroll">Create Payroll</Link></a>
+<a><Link to="/ViewPayroll">View Payroll</Link></a>
+
+</div>
+<form2>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="Employeeid">Employee Id</label>
@@ -61,10 +76,9 @@ export default function CreatePayroll() {
     </div>
   </div>
   <button type="submit" class="btn btn-primary">Save</button>
-</form>
-<footer>
-          <p><Link to="/Homepage">HomePage</Link></p>
-  </footer>
+</form2>
+
+
 </div>
     )
   }

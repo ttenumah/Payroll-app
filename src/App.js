@@ -11,7 +11,7 @@ import Viewemployee from "./routes/Viewemployee";
 export default function App() {
   return (
     <div className="App">
-      <h1>Welcome to Payroll Portal</h1>
+      
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="Add" element={<Add />} />

@@ -1,23 +1,23 @@
 import { Routes, Route, Link } from "react-router-dom";
 export default function Homepage() {
     return (
-<div className="text-center m-5-auto">
-      <h2>DashBoard</h2>
-  <form2>
-  <p><Link to="/Viewemployee">View and Edit Employees</Link></p>
-  </form2>
+<div>
+    <header>
+    <div class="header">
+  <a href="#default" class="logo">Employee Payroll</a>
+  <div class="header-right">
+    <a class="active"><Link to="/">Home</Link></a>
+    <a><Link to="/">Contact</Link></a>
+    <a><Link to="/">LogOut</Link></a>
+  </div>
+  </div>
+    </header>
+<div class="sidenav">
+  <a><Link to="/Viewemployee">View Employees</Link></a>
+  <a><Link to="/CreatePayroll">Create Payroll</Link></a>
+  <a><Link to="/ViewPayroll">View Payroll</Link></a>
   
-  <form2>
-  <p><Link to="/CreatePayroll">Create Payroll</Link></p>
-  </form2>
-
-  <form2>
-  <p><Link to="/ViewPayroll">View Payroll</Link></p>
-  </form2>
-  <footer>
-          <p><Link to="/">LogOut</Link></p>
-  </footer>
- 
- </div>
+</div>
+</div>
     )
   }

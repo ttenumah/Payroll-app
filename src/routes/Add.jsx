@@ -1,6 +1,8 @@
 import { Routes, Route, Link } from "react-router-dom";
 export default function Add() {
     return (
+
+
 <div className="text-center m-5-auto">
       <h2>Create Account</h2>
   <form>
@@ -27,6 +29,9 @@ export default function Add() {
   <footer>
           <p><Link to="/">Back</Link></p>
   </footer>
+  
  </div>
+
+
     )
   }
