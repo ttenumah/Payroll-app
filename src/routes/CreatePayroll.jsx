@@ -22,11 +22,11 @@ export default function CreatePayroll() {
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="Employeeid">Employee Id</label>
-      <input type="id" class="form-control" id="employeeid"/>
+      <input type="number" class="form-control" id="employeeid"/>
     </div>
     <div class="form-group col-md-6">
       <label for="Employeename">Employee Name</label>
-      <input type="name" class="form-control" id="employeename"/>
+      <input type="text" class="form-control" id="employeename"/>
     </div>
   </div>
   <div class="form-row">
