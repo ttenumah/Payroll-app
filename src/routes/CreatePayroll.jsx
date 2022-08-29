@@ -26,7 +26,7 @@ export default function CreatePayroll() {
     </div>
     <div class="form-group col-md-6">
       <label for="Employeename">Employee Name</label>
-      <input type="name" class="form-control" id="employeename" />
+      <input type="name" class="form-control" id="employeename"/>
     </div>
   </div>
   <div class="form-row">
